@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://xllrnx.github.io/bachelor-landing/sitemap.xml
