@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Сайт-презентація бакалаврської роботи студента." />
   <meta name="keywords" content="бакалаврська, презентація, вебсайт, студент, дослідження" />
+
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
@@ -12,14 +13,67 @@
   <link rel="shortcut icon" href="/favicon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
   <link rel="manifest" href="/favicon/site.webmanifest" />
+
+  <meta property="og:title" content="Презентація бакалаврської роботи" />
+  <meta property="og:description" content="Односторінковий сайт для представлення бакалаврської роботи." />
+  <meta property="og:url" content="https://xllrnx.github.io/bachelor-landing/" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "EducationalOccupationalProgram",
+      "name": "Впровадження ІТ-рішень у медичну сферу",
+      "educationalProgramMode": "Full-time",
+      "provider": {
+        "@type": "University",
+        "name": "Sumy State University"
+      },
+      "description": "Презентація бакалаврської роботи з теми впровадження ІТ-рішень у медичну сферу."
+    }
+    </script>
+  <meta property="og:type" content="website" />
   <title>Презентація бакалаврської роботи</title>
 </head>
 <body>
   <header>
     <h1>Інформаційна система для оптимізації обліку пацієнтів у медичних закладах</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Про роботу</a></li>
+        <li><a href="#goal">Мета</a></li>
+        <li><a href="#results">Результати</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+    </nav>
   </header>
+
   <main>
-    <p>Короткий опис і структура сайту з'являться тут.</p>
+    <section id="about">
+      <h2>Про роботу</h2>
+      <p>Робота присвячена дослідженню, проектуванню та початковій розробці інформаційної технології, що спрямована на полегшення облікової діяльності медичних працівників у лікарнях.</p>
+    </section>
+
+    <section id="goal">
+      <h2>Мета дослідження</h2>
+      <ul>
+        <li>Дослідити наявні рішення поставленої проблеми. Визначити їх переваги та недоліки та використати зібрану інформацію при розробці власного продукту.</li>
+        <li>Розробити додаток «Електронна медична картка амбулаторного хворого».</li>
+      </ul>
+    </section>
+
+    <section id="results">
+      <h2>Очікувані результати</h2>
+      <p>Ключовим результатом роботи є розробка десктоп додатку, призначеного для переведення роботи з медичними картками для хворих, що знаходяться на стаціонарному лікуванні в комп’ютерний вигляд.</p>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакти</h2>
+      <p>email: oleksandr.vynychenko@student.sunmdu.edu.ua</p>
+    </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Vynychenko Oleksandr</p>
+  </footer>
 </body>
 </html>
